@@ -24,7 +24,7 @@ export const empresa = {
   publicoAlvo:
     "A Piauí Digital tem como público-alvo pequenas e médias empresas, empreendedores, comerciantes e profissionais autônomos que desejam modernizar seus negócios por meio da tecnologia.",
   contato: {
-    email: "contato@tedsystem.com.br",
+    email: "contato@piauidigital.com.br",
     telefone: "(86) 9998-1533",
     endereco: {
       logradouro: "Rua: Cícero Medeiros 925",
@@ -38,23 +38,23 @@ export const empresa = {
     {
       nome: "Luis Gustavo Pereira ",
       cargo: "CEO e Engenheiro de Software",
-      foto: "/images/gustavo.jpg",
+      foto: "/images/gustavo.png",
       alt: "Foto de gustavo",
-      descricao: "Fundador da TED System, começou desenvolvendo sistemas de gestão para comércios locais do interior do Nordeste."
+      descricao: "responsável pela liderança e gestão da Piauí Digital, atuando também no desenvolvimento de soluções tecnológicas. Como CEO, coordena projetos, organiza estratégias e busca novas oportunidades para o crescimento da empresa. Como engenheiro de software, trabalha na criação e desenvolvimento de sistemas modernos, eficientes e personalizados, transformando ideias em soluções digitais de qualidade."
     },
     {
       nome: "João Victor dos Santos ",
       cargo: " Diretor de Tecnologia (CTO) ",
-      foto: "/images/veneno.jpg",
+      foto: "/images/veneno.png",
       alt: "Foto de veneno",
-      descricao: "Especialista em desenvolvimento Full Stack, chegou para ampliar a capacidade de entrega da empresa."
+      descricao: "João Victor dos Santos é responsável pela área tecnológica da Piauí Digital, acompanhando o desenvolvimento dos projetos e buscando soluções inovadoras. Atua na organização e implementação de tecnologias, garantindo que os sistemas e serviços da empresa sejam modernos, seguros e eficientes, contribuindo para o crescimento e a qualidade dos resultados."
     },
     {
       nome: "Carlos Lacerda ",
       cargo: "Diretor de Marketing e Atendimento ",
-      foto: "/images/carlosd.jpg",
+      foto: "/images/carlos.png",
       alt: "Foto de carlos",
-      descricao: "Responsável por estruturar e proteger os bancos de dados dos clientes."
+      descricao: "Responsável por desenvolver estratégias de marketing, fortalecer a imagem da empresa e garantir um atendimento de qualidade aos clientes, buscando satisfação, confiança e crescimento da marca.."
     }
   ]
 };
