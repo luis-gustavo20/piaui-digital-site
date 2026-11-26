@@ -1,26 +1,28 @@
 /* src/styles/global.css */
 :root {
-  /* Paleta de Cores baseada no Logo */
-  --cor-primaria: #0d1520; /* Quase preto */
-  --cor-secundaria: #0058ec; /* Azul escuro do degradê (links e botões) */
-  --cor-destaque: #008ff7; /* Azul claro do degradê (decorativo) */
+  /* Paleta de Cores baseada no novo Logo */
+  --cor-primaria: #1a0b05; /* Quase preto */
+  --cor-secundaria: #ff4500; /* Laranja avermelhado */
+  --cor-destaque: #ffb800; /* Amarelo dourado */
   --cor-fundo: #ffffff;
-  --cor-fundo-alt: #f8fafc;
+  --cor-fundo-alt: #fff7ed;
   --cor-texto: #334155;
   --cor-texto-secundario: #64748b;
   --cor-texto-invertido: #ffffff;
-  --cor-texto-invertido-suave: #cbd5e1;
-  --cor-borda: #e2e8f0;
-  
+  --cor-texto-invertido-suave: #fed7aa;
+  --cor-borda: #ffedd5;
+
   /* Variável para o Hero */
-  --cor-hero-fim: #00224d;
+  --cor-hero-fim: #9a2500;
 
   /* Degradês Globais */
   --degrade-marca: linear-gradient(
     90deg,
-    var(--cor-secundaria),
-    var(--cor-destaque)
+    #ffb800,
+    #ff7900,
+    #ff3500
   );
+
   --degrade-hero: linear-gradient(
     135deg,
     var(--cor-primaria),
@@ -30,7 +32,7 @@
   /* Variáveis Estruturais */
   --borda-raio: 8px;
   --sombra-cartao: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-  --sombra-cartao-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --sombra-cartao-hover: 0 10px 15px -3px rgba(255, 69, 0, 0.15);
   --espacamento-secao: 4rem;
 }
 
@@ -72,6 +74,7 @@ a {
 }
 
 a:hover {
+  color: #e63900;
   text-decoration: underline;
 }
 
@@ -92,16 +95,20 @@ a:hover {
 
 .btn {
   display: inline-block;
-  background-color: var(--cor-secundaria);
+  background: var(--degrade-marca);
   color: var(--cor-texto-invertido);
   padding: 0.75rem 1.5rem;
   border-radius: var(--borda-raio);
   font-weight: 600;
   text-align: center;
-  transition: background-color 0.2s ease;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .btn:hover {
-  background-color: var(--cor-primaria);
+  background: linear-gradient(90deg, #e69c00, #e63900);
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-cartao-hover);
   text-decoration: none;
 }
