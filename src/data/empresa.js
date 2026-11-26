@@ -54,7 +54,14 @@ export const empresa = {
       cargo: "Diretor de Marketing e Atendimento ",
       foto: "/images/carlos.png",
       alt: "Foto de carlos",
-      descricao: "Responsável por desenvolver estratégias de marketing, fortalecer a imagem da empresa e garantir um atendimento de qualidade aos clientes, buscando satisfação, confiança e crescimento da marca.."
+      descricao: "Responsável por desenvolver estratégias de marketing, fortalecer a imagem da empresa e garantir um atendimento de qualidade aos clientes, buscando satisfação, confiança e crescimento da marca."
+    },
+    {
+      nome: "Ana Beatriz",
+      cargo: "CFO – Diretora Financeira",
+      foto: "/images/anab.png",
+      alt: "Foto de ana beatriz",
+      descricao: "Responsável por administrar e organizar os recursos financeiros da Piauí Digital, garantindo o controle das despesas, planejamento do orçamento e equilíbrio financeiro da empresa."
     }
   ]
 };
